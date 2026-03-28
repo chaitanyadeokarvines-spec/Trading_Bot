@@ -1,0 +1,7 @@
+2025-03-15 10:22:01 | INFO     | trading_bot | Logger initialised → logs/trading_bot_20250315_102201.log
+2025-03-15 10:22:01 | INFO     | client | BinanceClient initialised | base_url=https://testnet.binancefuture.com
+2025-03-15 10:22:01 | INFO     | cli | CLI → MARKET | symbol=BTCUSDT side=BUY qty=0.001
+2025-03-15 10:22:01 | INFO     | orders | Placing MARKET order | symbol=BTCUSDT side=BUY qty=0.001
+2025-03-15 10:22:01 | DEBUG    | client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1710494521432, 'signature': 'a3f8c2...'}
+2025-03-15 10:22:02 | DEBUG    | client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=200 | body={"orderId":4751823640,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"x-abc123","price":"0","avgPrice":"83412.50000","origQty":"0.001","executedQty":"0.001","cumQty":"0.001","cumQuote":"83.41250","timeInForce":"GTC","type":"MARKET","side":"BUY"}
+2025-03-15 10:22:02 | INFO     | orders | MARKET order placed successfully | orderId=4751823640
